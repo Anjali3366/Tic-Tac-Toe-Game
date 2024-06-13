@@ -30,7 +30,7 @@ const checkWinner = () => {
 
     if (pos1Val != "" && pos2Val != "" && pos3val != "") {
       if (pos1Val == pos2Val && pos2Val == pos3val) {
-        alert(`!! Congratulations , Winner is ${pos1Val} player  !!`);
+        alert(`Congratulations !! Winner is ${pos1Val} player  !!`);
         disabledBoxes();
         resetGame();
       }
