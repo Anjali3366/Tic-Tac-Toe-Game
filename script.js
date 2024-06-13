@@ -21,7 +21,7 @@ const winPatterns = [
 
 // function ::
 
-// to check the winner
+// to check the winner of game
 const checkWinner = () => {
   for (let pattern of winPatterns) {
     let pos1Val = boxes[pattern[0]].innerText,
